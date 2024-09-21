@@ -20,7 +20,7 @@ void push(stackelement* bot, int value){
     temp->link = head;
     head = temp;
     top++;
-}
+} 
 
 int pop(stackelement* h){
     if(head == NULL ){
